@@ -1,0 +1,173 @@
+.link-style-changes {
+  list-style-type: none;
+  text-decoration: none;
+}
+.job-element-list {
+  background-color: #272727;
+  list-style-type: none;
+  padding: 25px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.job-element-profile {
+  height: 75px;
+  width: 75px;
+}
+.title-rating-contianer {
+  margin-left: 15px;
+}
+.job-element-title {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 0px;
+  color: #ffffff;
+  margin-bottom: 13px;
+}
+.star-contianer {
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+  padding: 0px;
+}
+.job-element-para-title {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-top: 0px;
+  margin-left: 8px;
+  margin-bottom: 0px;
+}
+.fillstar {
+  color: goldenrod;
+  height: 23px;
+  width: 23px;
+  margin-top: 0px;
+  padding-top: 0px;
+  align-self: flex-start;
+}
+.locationon {
+  color: white;
+  height: 28px;
+  width: 28px;
+}
+.list-companyprofile-contianer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.jobelement-briefdetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.location-set {
+  display: flex;
+  align-items: center;
+}
+.job-element-para-title-style {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-top: 0px;
+  margin-left: 8px;
+  margin-bottom: 0px;
+}
+.job-element-description-title {
+  font-family: 'Roboto';
+  font-size: 28px;
+  color: #ffffff;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.job-element-para-description {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color: #f1f5f9;
+  line-height: 30px;
+  margin-bottom: 5px;
+}
+.linebreaking {
+  height: 2px;
+  border-width: 0px;
+  background-color: #cbd5e1;
+}
+.mobile-view-briefs {
+  display: none;
+}
+@media screen and (max-width: 576px) {
+  .link-style-changes {
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  .job-element-list {
+    background-color: #272727;
+    list-style-type: none;
+    padding: 20px;
+    width: 100%;
+  }
+  .job-element-profile {
+    height: 70px;
+    width: 70px;
+  }
+  .job-element-title {
+    font-family: 'Roboto';
+    font-size: 22px;
+  }
+  .mobile-view-briefs {
+    display: flex;
+  }
+  .location-set {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .laptop-view {
+    display: none;
+  }
+  .mobile-view-briefs {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 321px) {
+  .mobile-view-briefs {
+    display: flex;
+    flex-direction: column;
+  }
+  .locationon {
+    color: white;
+    height: 25px;
+    width: 25px;
+  }
+  .location-set {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .laptop-view {
+    display: none;
+  }
+  .job-element-para-title-style {
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 0px;
+    margin-left: 8px;
+    margin-bottom: 0px;
+  }
+  .jobelement-briefdetails {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+}

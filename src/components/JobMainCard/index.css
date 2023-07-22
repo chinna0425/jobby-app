@@ -1,0 +1,153 @@
+.maincard-container {
+  background-color: #202020;
+  margin-top: 25px;
+  border-radius: 10px;
+  padding: 35px;
+  padding-bottom: 15px;
+}
+.main-card-img-text-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.maincard-logo {
+  height: 75px;
+  width: 75px;
+}
+.main-card-text-container {
+  margin-left: 15px;
+}
+.main-card-rating-contianer {
+  display: flex;
+  align-items: center;
+}
+.main-card-brief-details-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+.main-card-location-emptype {
+  display: flex;
+  align-items: center;
+}
+.main-card-location-container {
+  display: flex;
+  align-items: center;
+  margin-right: 35px;
+}
+.main-card-description-visit-cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.addDesc {
+  font-size: 32px;
+  font-weight: 500;
+}
+.addDescPara {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+}
+.unorder-skills-container {
+  display: flex;
+  flex-flow: wrap;
+  padding: 0px;
+}
+.lifeatcompany-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.life-image {
+  width: 100%;
+}
+.image-container {
+  width: 25%;
+}
+.life-desc {
+  width: 73%;
+  align-self: flex-start;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 400;
+  color: #f8fafc;
+  line-height: 40px;
+}
+.visit-button {
+  display: flex;
+  align-items: center;
+  background-color: #202020;
+  color: #b6c5ff;
+  font-family: 'Roboto';
+  font-size: 24px;
+  border-radius: 0px;
+  border-width: 0px;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+}
+.link-item {
+  margin-left: 5px;
+}
+@media screen and (max-width: 576px) {
+  /*.main-card-location-emptype {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  } */
+  .maincard-container {
+    background-color: #202020;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 20px;
+    padding-bottom: 15px;
+    padding-top: 20px;
+  }
+
+  .main-card-location-container {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  .addDesc {
+    font-size: 26px;
+  }
+  .lifeatcompany-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .image-container {
+    width: 100%;
+  }
+  .life-desc {
+    width: 100%;
+    align-self: flex-start;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 400;
+    color: #f8fafc;
+    line-height: 40px;
+  }
+}
+@media screen and (max-width: 321px) {
+  .main-card-location-emptype {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-card-location-container {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+  }
+  .addDesc {
+    font-size: 26px;
+  }
+  .space-add-bottom {
+    margin-bottom: 25px;
+  }
+}
